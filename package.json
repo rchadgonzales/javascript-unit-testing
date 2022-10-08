@@ -1,0 +1,17 @@
+{
+  "name": "javascript-unit-testing",
+  "version": "1.0.0",
+  "description": "JavaScript Unit Testing Basics",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --reporter nyan",
+    "watch": "mocha --watch ./test ./",
+    "watchTest": "mocha --reporter nyan --watch ./test ./"
+  },
+  "author": "Richard Gonzales",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
